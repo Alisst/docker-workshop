@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+   company_a_web_server:
+      image: nginx:latest
+      ports:
+         - "8001:80"
+
+   company_b_web_server:
+      image: nginx:latest
+      ports:
+         - "8002:80"
+
+   company_c_web_server:
+      image: nginx:latest
+      ports:
+         - "8003:80"
